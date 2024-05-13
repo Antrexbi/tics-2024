@@ -1,0 +1,71 @@
+nav ul li {
+    display: inline-block;
+    position: relative;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(100, 165, 163);
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 2px solid rgb(100, 165, 163);
+    border-radius: 5px;
+    display: block;
+}
+
+nav ul li ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: rgb(174, 223, 219);
+    padding: 10px;
+}
+
+nav ul li:hover ul {
+    display: block;
+}
+
+nav ul li ul li {
+    margin-top: 5px;
+}
+
+nav ul li ul li a {
+    color: rgb(31, 83, 66);
+    border: none;
+}
+
+nav ul li ul li a:hover {
+    color: white;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(174, 223, 219);
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px;
+    text-align: center;
+}
+
+h1 {
+    color: rgb(100, 165, 163);
+}
+
+p {
+    color: rgb(31, 83, 66);
+}
+
+footer {
+    background-color: rgb(174, 223, 219);
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-text {
+    color: rgb(100, 165, 163);
+}
